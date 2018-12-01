@@ -51,13 +51,5 @@ class Table: CustomStringConvertible {
             return nil
         }
     }
-    
-    func write(to fileURL: URL) throws {
-        let data = description.data(using: .utf8, allowLossyConversion: false)!
-        if FileManager.default.fileExists(atPath: fileURL.path) {
-            try data.append(toFileAt: fileURL)
-        } else {
-            try data.write(to: fileURL)
-        }
-    }
+
 }

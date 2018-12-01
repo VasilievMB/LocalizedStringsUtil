@@ -14,6 +14,7 @@
 		74E4990521B2ADA900455D74 /* LanguageBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E4990421B2ADA900455D74 /* LanguageBundle.swift */; };
 		74E4990721B2B13F00455D74 /* LocalizedStringsEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E4990621B2B13F00455D74 /* LocalizedStringsEditor.swift */; };
 		74E4990921B2B32300455D74 /* LocalizedStringsReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E4990821B2B32300455D74 /* LocalizedStringsReader.swift */; };
+		74E4990B21B2BC0800455D74 /* LocalizedStringsWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E4990A21B2BC0800455D74 /* LocalizedStringsWriter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		74E4990421B2ADA900455D74 /* LanguageBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageBundle.swift; sourceTree = "<group>"; };
 		74E4990621B2B13F00455D74 /* LocalizedStringsEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStringsEditor.swift; sourceTree = "<group>"; };
 		74E4990821B2B32300455D74 /* LocalizedStringsReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStringsReader.swift; sourceTree = "<group>"; };
+		74E4990A21B2BC0800455D74 /* LocalizedStringsWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStringsWriter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				74E4990421B2ADA900455D74 /* LanguageBundle.swift */,
 				74E4990621B2B13F00455D74 /* LocalizedStringsEditor.swift */,
 				74E4990821B2B32300455D74 /* LocalizedStringsReader.swift */,
+				74E4990A21B2BC0800455D74 /* LocalizedStringsWriter.swift */,
 			);
 			path = LocalizedStringsUtil;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 				74E498F821B2AB6E00455D74 /* main.swift in Sources */,
 				74E4990321B2ACE300455D74 /* LocalizedString.swift in Sources */,
 				74E4990721B2B13F00455D74 /* LocalizedStringsEditor.swift in Sources */,
+				74E4990B21B2BC0800455D74 /* LocalizedStringsWriter.swift in Sources */,
 				74E498FF21B2ABD100455D74 /* Data+Append.swift in Sources */,
 				74E4990521B2ADA900455D74 /* LanguageBundle.swift in Sources */,
 			);

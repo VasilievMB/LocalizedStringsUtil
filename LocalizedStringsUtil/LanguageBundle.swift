@@ -24,4 +24,10 @@ class LanguageBundle {
     
     static let pathExtension = "lproj"
     
+    func sortStrings(by areInIncreasingOrder: StringsSort) rethrows {
+        try tables.forEach { (table) in
+            try table.sortStrings(by: areInIncreasingOrder)
+        }
+    }
+    
 }
