@@ -24,6 +24,9 @@ class LocalizedStringsWriter {
         let bundleURL = url
             .appendingPathComponent(bundle.name)
             .appendingPathExtension(LanguageBundle.pathExtension)
+        if !fileManager.fileExists(atPath: bundleURL.path) {
+            try fileManager.createDirectory(at: bundleURL, withIntermediateDirectories: true, attributes: nil)
+        }
         try bundle.tables.forEach { (table) in
             try write(table: table, to: bundleURL, overwrite: overwrite)
         }

@@ -87,7 +87,7 @@ class TSV {
                 
                 let key = row[0]
                 let value = row[colIndex]
-                table.setStringValue(key, forKey: value)
+                table.setStringValue(value, forKey: key)
             }
             
             bundles.append(bundle)
@@ -115,7 +115,7 @@ class TSV {
         headers.insert(header, at: 0)
         headers.insert("", at: 0)
         
-        let rows: [[String]] = strings.map { (entry) -> [String] in
+        let rows: [[String]] = [headers] + strings.map { (entry) -> [String] in
             return [entry.key, entry.value]
         }
         

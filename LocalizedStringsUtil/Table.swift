@@ -24,7 +24,7 @@ class Table: CustomStringConvertible {
     static let pathExtension = "strings"
     
     var description: String {
-        return strings.map { $0.description }.joined(separator: "\n\n")
+        return strings.map { $0.description }.joined(separator: "\n")
     }
     
     func string(withKey key: String) -> LocalizedString? {
